@@ -1,0 +1,106 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {750, 300}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Pig Latin Converter",
+          "font_name" : "<System>",
+          "name" : "title_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "00DB40DA-3A8A-449A-993C-B968236FEBDE"
+        },
+        "frame" : "{{6, 6}, {738, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Sentence to translate:",
+          "font_name" : "<System>",
+          "name" : "sentence_to_translate_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "35FCC83A-F276-406B-9DEB-D53CCD1ABFF1"
+        },
+        "frame" : "{{6, 46}, {182, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "english_sentence_textfield",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{275, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "4D743235-F36E-44E3-A277-E862025BDD37"
+        },
+        "frame" : "{{196, 46}, {548, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 18,
+          "title" : "Convert!",
+          "name" : "convert_button",
+          "action" : "convert_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{335, 254}, {80, 32}}",
+          "uuid" : "18629D98-4B8C-4BD0-B282-70B586539B96"
+        },
+        "frame" : "{{335, 85}, {80, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "converted_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{300, 254}, {150, 32}}",
+          "uuid" : "6452362F-E7EF-4D03-9CF3-8C1F8ED6988B"
+        },
+        "frame" : "{{6, 125}, {738, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
